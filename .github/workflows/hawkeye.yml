@@ -18,4 +18,4 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - name: hawkeye
-        - run: hawkeye scan --target web/
+        run: hawkeye scan --target web/
